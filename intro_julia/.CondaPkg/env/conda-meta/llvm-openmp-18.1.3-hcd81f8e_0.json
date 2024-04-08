@@ -1,0 +1,92 @@
+{
+    "arch": "arm64",
+    "build": "hcd81f8e_0",
+    "build_number": 0,
+    "build_string": "hcd81f8e_0",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [
+        "openmp 18.1.3|18.1.3.*"
+    ],
+    "depends": [],
+    "extracted_package_dir": "/Users/pthakur8/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/llvm-openmp-18.1.3-hcd81f8e_0",
+    "files": [
+        "include/omp-tools.h",
+        "include/omp.h",
+        "include/ompt.h",
+        "include/ompx.h",
+        "lib/clang/18.1.3/include/omp.h",
+        "lib/libiomp5.dylib",
+        "lib/libomp.dylib"
+    ],
+    "fn": "llvm-openmp-18.1.3-hcd81f8e_0.conda",
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "link": {
+        "source": "/Users/pthakur8/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/llvm-openmp-18.1.3-hcd81f8e_0",
+        "type": 1
+    },
+    "md5": "24cbf1fb1b83056f8ba1beaac0619bf8",
+    "name": "llvm-openmp",
+    "package_tarball_full_path": "/Users/pthakur8/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/llvm-openmp-18.1.3-hcd81f8e_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/omp-tools.h",
+                "path_type": "hardlink",
+                "sha256": "fa06b3089702db0d2dc5900caab6d93b2e5e0fd56295b65bf7611c436c72bff7",
+                "sha256_in_prefix": "fa06b3089702db0d2dc5900caab6d93b2e5e0fd56295b65bf7611c436c72bff7",
+                "size_in_bytes": 51555
+            },
+            {
+                "_path": "include/omp.h",
+                "path_type": "hardlink",
+                "sha256": "9ef85ad278e06954e97326ca6c515aa91f86f05cd54608a531a136a571174bd6",
+                "sha256_in_prefix": "9ef85ad278e06954e97326ca6c515aa91f86f05cd54608a531a136a571174bd6",
+                "size_in_bytes": 23818
+            },
+            {
+                "_path": "include/ompt.h",
+                "path_type": "hardlink",
+                "sha256": "fa06b3089702db0d2dc5900caab6d93b2e5e0fd56295b65bf7611c436c72bff7",
+                "sha256_in_prefix": "fa06b3089702db0d2dc5900caab6d93b2e5e0fd56295b65bf7611c436c72bff7",
+                "size_in_bytes": 51555
+            },
+            {
+                "_path": "include/ompx.h",
+                "path_type": "hardlink",
+                "sha256": "555e94eb0632b9dd448d0e757e8763b9af2e074b728e93576ed6ce80d1170c25",
+                "sha256_in_prefix": "555e94eb0632b9dd448d0e757e8763b9af2e074b728e93576ed6ce80d1170c25",
+                "size_in_bytes": 5326
+            },
+            {
+                "_path": "lib/clang/18.1.3/include/omp.h",
+                "path_type": "hardlink",
+                "sha256": "9ef85ad278e06954e97326ca6c515aa91f86f05cd54608a531a136a571174bd6",
+                "sha256_in_prefix": "9ef85ad278e06954e97326ca6c515aa91f86f05cd54608a531a136a571174bd6",
+                "size_in_bytes": 23818
+            },
+            {
+                "_path": "lib/libiomp5.dylib",
+                "path_type": "softlink",
+                "sha256_in_prefix": "8eac7a8138d744be6c7972f750d4fefe8e0138058347487f34403b391fa250c0",
+                "size_in_bytes": 824512
+            },
+            {
+                "_path": "lib/libomp.dylib",
+                "path_type": "hardlink",
+                "sha256": "8eac7a8138d744be6c7972f750d4fefe8e0138058347487f34403b391fa250c0",
+                "sha256_in_prefix": "8eac7a8138d744be6c7972f750d4fefe8e0138058347487f34403b391fa250c0",
+                "size_in_bytes": 824512
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "osx",
+    "requested_spec": "",
+    "sha256": "4cb4eadd633669496ed70c580c965f5f2ed29336890636c61a53e9c1c1541073",
+    "size": 276320,
+    "subdir": "osx-arm64",
+    "timestamp": 1712603367897,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/llvm-openmp-18.1.3-hcd81f8e_0.conda",
+    "version": "18.1.3"
+}
