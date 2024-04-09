@@ -182,7 +182,7 @@ Pluto: very similar to jupyter notebook, but it is reactive, and easier version 
 """
 
 # ╔═╡ 11fa1cc8-f855-442e-afe1-9f2953f11d61
-a = 6 # Changing `a` here automatically makes changes throughout the notebook
+a = 7 # Changing `a` here automatically makes changes throughout the notebook
 
 # ╔═╡ 4738b2c4-89ad-41ce-8c3f-e32c761c7ddf
 b = a + 2
@@ -397,7 +397,7 @@ sq = Square(5,3)
 sq.area
 
 # ╔═╡ d7c3d3ca-975e-4bda-9617-67bf8ab25cc0
-#sq2 = Square(2,5,10)
+##sq2 = Square(2,5,10)
 
 # ╔═╡ 0a876d5c-e2c1-49af-b8eb-43918186a100
 md"""
@@ -616,21 +616,16 @@ md"""
 
 #### Example: using DifferentialEquations.jl to solve lorenz equation
 The Lorenz equations are given by:
-
-
-$(texeq(" \frac{dx}{dt} &= \sigma(y - x)",
-))
-
-
-\frac{dy}{dt} &= x(\rho - z) - y, \\
-\frac{dz}{dt} &= xy - \beta z,
-
-
-where \(x\), \(y\), and \(z\) are the state variables, and \(\sigma\), \(\rho\), and \(\beta\) are the system parameters.
 """
 
-# ╔═╡ b14c1316-d75a-495f-8b3c-5cc906e6cf55
+# ╔═╡ 1da6085f-4f3e-4278-b2d1-32712bc6b205
+texeq"\frac{dx}{dt} = \sigma(y - x)"
 
+# ╔═╡ b14c1316-d75a-495f-8b3c-5cc906e6cf55
+texeq"\frac{dy}{dt} = x(\rho - z) - y"
+
+# ╔═╡ a38dc093-35c8-40f1-a294-aa22ede230e1
+texeq"\frac{dz}{dt} = xy - \beta z"
 
 # ╔═╡ f97f8175-88de-46d9-8ec2-2ebf6bbb2228
 begin
@@ -661,7 +656,7 @@ end
 # Plot the solution
 begin
 	# @bind sol
-	plot(sol, vars=(1,2,3))
+	Plots.plot(sol, idxs=(1,2,3))
 end
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
@@ -2943,8 +2938,10 @@ version = "1.4.1+1"
 # ╠═b7b978c9-10f9-41f9-abb2-cd44216165c4
 # ╠═6a96e890-6637-4acd-9293-aad79ebe820c
 # ╠═e3c72b48-8d17-4b4e-bfcc-a615e8547672
-# ╠═1b5461f3-2423-4277-b577-7c11a55dca2f
-# ╠═b14c1316-d75a-495f-8b3c-5cc906e6cf55
+# ╟─1b5461f3-2423-4277-b577-7c11a55dca2f
+# ╟─1da6085f-4f3e-4278-b2d1-32712bc6b205
+# ╟─b14c1316-d75a-495f-8b3c-5cc906e6cf55
+# ╟─a38dc093-35c8-40f1-a294-aa22ede230e1
 # ╠═da266718-431f-4bcf-9c5b-e8e440e65029
 # ╠═f97f8175-88de-46d9-8ec2-2ebf6bbb2228
 # ╠═9c5cc745-47eb-41c0-9c69-6eabf7fc7189
