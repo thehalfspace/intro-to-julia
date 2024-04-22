@@ -7,3 +7,5 @@ Pluto notebook for a brief, introduction to Julia language.
 - Start Julia in a terminal
 - Activate the environment: `]activate intro_julia`
 - Load Pluto and run the notebook: `julia> using Pluto; Pluto.run()`
+- Click on `Run Notebook Code`
+- More info on using Pluto notebooks: https://plutojl.org/ 
